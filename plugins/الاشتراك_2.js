@@ -13,10 +13,10 @@ const handler = async (m, { conn }) => {
                     header: { title: 'HARLEY' },
                     body: {
                         text: `━ ╼╃ ⌬〔﷽〕⌬ ╄╾ ━
-> 𝐁𝐎𝐀𝐘𝐊𝐀﹝❄️﹞𝐁𝐎𝐓
+>   shawrma ﹝❄️﹞bot
 > 〔 الاشتراك الاسبوعي┊ ˼‏ 🚀˹ ↶〕
 *⋅ ───━ •﹝👑﹞• ━─── ⋅*
-            *بــويــكــا بــ🤖ــوت*
+            *اshawrma ﹝❄️﹞bot*
 *⋅ ───━ •﹝👑﹞• ━─── ⋅*
 ╗───¤﹝السعر ↶ 💵﹞
 > •┊˹👾˼┊- رقم وهمي اسبوعيا
@@ -46,11 +46,11 @@ const handler = async (m, { conn }) => {
                         buttons: [
                             {
                                 name: "cta_url",
-                                buttonParamsJson: '{"display_text":"⌈🚀╎𝐁𝐔𝐘 ˹💰˼ 𝐍𝐎𝐖╎🚀⌋","url":"https://api.whatsapp.com/send?phone=+972546887176","merchant_url":"https://api.whatsapp.com/send?phone=+972546887176"}'
+                                buttonParamsJson: '{"display_text":"⌈🚀╎𝐁𝐔𝐘 ˹💰˼ 𝐍𝐎𝐖╎🚀⌋","url":"https://api.whatsapp.com/send?phone=+2001550680822","merchant_url":"https://wa.me/201550680822"}'
                             },
                             {
                                 name: "cta_url",
-                                buttonParamsJson: '{"display_text":"⌈📲╎قـنـاة الـمـطـور╎📲⌋","url":"https://whatsapp.com/channel/0029VaXddtu0lwgiREisx82C","merchant_url":"https://whatsapp.com/channel/0029VaXddtu0lwgiREisx82C"}'
+                                buttonParamsJson: '{"display_text":"⌈📲╎قـنـاة الـمـطـور╎📲⌋","url":"https://whatsapp.com/channel/0029VanZjKLKGGGQNpGyhs0w","merchant_url":" https://whatsapp.com/channel/0029VanZjKLKGGGQNpGyhs0w"}'
                             }
                         ]
                     }
