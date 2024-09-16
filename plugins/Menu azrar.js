@@ -31,7 +31,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { header: { title: `harley`}, body: { text: `*⎔⋅ ╼╃ ⊰ •﹝❄️﹞• ⊱ ╄╾ ⋅⎔*
 *␥↞مـࢪحـبـا بـك/ي* @${mentionId.split('@')[0]}
 *⎔⋅ ╼╃ ⊰ •﹝❄️﹞• ⊱ ╄╾ ⋅⎔*
-> 🧭␥﴿ إن وعد الله حق ﴾
+> 🧭␥﴿ اسبام=بان ﴾
 *⎔⋅ ╼╃ ⊰ •﹝❄️﹞• ⊱ ╄╾ ⋅⎔*
 *␥↞﴿ مـعـلـومـاتـك ﴾⤹*
 > 🪔␥بـريـمـيـوم↞﴿ ${user.premiumTime > 0 ? 'مــمـ🔱ـيز' : (isPrems ? 'مــمـ🔱ـيز' : 'عــ🍁ــادي') || ''} ﴾
@@ -39,13 +39,13 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
 > 💫␥رتـبـتـك↞﴿ ${role} ﴾
 *⎔⋅ ╼╃ ⊰ •﹝❄️﹞• ⊱ ╄╾ ⋅⎔*
 *␥↞﴿الـبـوت﴾⤹*
-> 🧧␥اسـم الـبـوت↞﴿ 𝐵𝑜𝑦𝑘𝑎 𝑏𝑜𝑡 ﴾
-> ❄️␥الـمـطـور↞﴿ 𝐀𝐑𝐀𝐀𝐁 𝐙𝐀𝐂𝐊 ﴾
+> 🧧␥اسـم الـبـوت↞﴿ shawrma ﴾
+> ❄️␥الـمـطـور↞﴿ shawrma ﴾
 > ⏳␥الـتـشـغـيـل↞﴿ ${uptime} ﴾
 > 💧␥عـدد الـمـسـتـخـدمـين↞﴿ 20 ﴾
 *⎔⋅ ╼╃ ⊰ •﹝❄️﹞• ⊱ ╄╾ ⋅⎔*
-> © 𝐀𝐑𝐀𝐀𝐁 𝐙𝐀𝐂𝐊 2024
-*⎔⋅ ╼╃ ⊰ •﹝❄️﹞• ⊱ ╄╾ ⋅⎔*`,subtitle: "HARLEY",},header: { hasMediaAttachment: true,...(await prepareWAMessageMedia({ image : { url: harley } }, { upload: conn.waUploadToServer }, {quoted: m}))},
+> © شاورما 2024
+*⎔⋅ ╼╃ ⊰ •﹝❄️﹞• ⊱ ╄╾ ⋅⎔*`,subtitle: "SHAWRMA",},header: { hasMediaAttachment: true,...(await prepareWAMessageMedia({ image : { url: harley } }, { upload: conn.waUploadToServer }, {quoted: m}))},
                     contextInfo: {
                         mentionedJid: [m.sender],
                         isForwarded: false,
@@ -58,8 +58,8 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
                                     title: '⌈🛡╎الــقــوائـــم╎🛡⌋',
                                     sections: [
                                         {
-                                            title: 'مــرحـ🛡ـبــا بــك فـي مــ☑هــام بويكا بـ🤖ـوت',
-                                            highlight_label: 'بعبص براحتك يابرو 🤖',
+                                            title:'مــرحـ🛡ـبــا بــك فـي مــ☑هــام شاورما بوت',
+                                            highlight_label: ' براحتك يابرو 🤖',
                                             rows: [
                                                 {
                                                     header: 'الــقـ👑ـســم الـاول',
@@ -81,7 +81,7 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
                                                 },
                                                 {
                                                     header: 'الــقـ👑ـســم الــرابــع',
-                                                    title: 'استدعاء_قسم_المطور #المطور',
+                                                    title: 'استدعاء_قسم_المطور_شاورما #المطور',
                                                     description: '',
                                                     id: '.ق3'
                                                 },
@@ -137,7 +137,7 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
                      },
                      {
                name: "cta_url",
-               buttonParamsJson: '{"display_text":"⌈📲╎قـنـاة الـمـطـور╎📲⌋","url":"https://whatsapp.com/channel/0029ValRCUIFi8xmK9xBOr0I","merchant_url":"https://whatsapp.com/channel/0029ValRCUIFi8xmK9xBOr0I"}'
+               buttonParamsJson: '{"display_text":"⌈📲╎قـنـاة الـمـطـور╎📲⌋","url":"https://whatsapp.com/channel/0029VanZjKLKGGGQNpGyhs0w","merchant_url":"https://whatsapp.com/channel/0029VanZjKLKGGGQNpGyhs0w"}'
                             }
                         ]
                     }
