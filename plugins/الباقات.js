@@ -47,8 +47,8 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
                                     title: '♪ الــبــاقــات ♪',
                                     sections: [
                                         {
-                                            title: 'مــرحـ🛡ـبــا بــك فـي سورس بويكا بـ🤖ـوت',
-                                            highlight_label: 'ســــورس بــويــكــا',
+                                            title: 'مــرحـ🛡ـبــا بــك فـي سورس',
+                                            highlight_label: 'ســــورس ـا',
                                             rows: [
                                                 {
                                                     header: '𝐒𝐔𝐁𝐒𝐂𝐑𝐈𝐏𝐓𝐈𝐎𝐍 𝐈𝐒 𝐅𝐑𝐄𝐄',
@@ -82,11 +82,11 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
                 },
                 {
               name: "cta_url",
-               buttonParamsJson: '{"display_text":"⌈👾╎الـمـطـور╎👾⌋","url":"https://api.whatsapp.com/send?phone=+972546887176","merchant_url":"https://api.whatsapp.com/send?phone=+972546887176"}'
+               buttonParamsJson: '{"display_text":"⌈👾╎الـمـطـور╎👾⌋","url":"https://wa.me/201550680822","merchant_url":"https://api.whatsapp.com/send?phone=+201550680822"}'
                      },
                      {
                name: "cta_url",
-               buttonParamsJson: '{"display_text":"⌈📲╎قـنـاة الـمـطـور╎📲⌋","url":"https://whatsapp.com/channel/0029ValRCUIFi8xmK9xBOr0I","merchant_url":"https://whatsapp.com/channel/0029ValRCUIFi8xmK9xBOr0I"}'
+               buttonParamsJson: '{"display_text":"⌈📲╎قـنـاة الـمـطـور╎📲⌋","url":"https://whatsapp.com/channel/0029VanZjKLKGGGQNpGyhs0w","merchant_url":"https://whatsapp.com/channel/0029VanZjKLKGGGQNpGyhs0w"}'
                             }
                         ]
                     }
