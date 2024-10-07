@@ -13,8 +13,8 @@ import { en, es, id, ar, pt } from "./lib/idiomas/total-idiomas.js"
 // [ES] > Agrega el número que será Bot y los que serán propietarios.
 // [EN] > Add the number that will be Bot and those that will be owners.
 global.owner = [
-["201550680822", 'المالك_المطور', true], //𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈
-] ["201211231685", '_المطور', true] 
+["967775302218", 'المالك_المطور', true], //𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈
+] ["966581999573", '_المطور', true] 
 ] 
 
 global.mods = []
@@ -116,9 +116,9 @@ global.moment = moment
 // [ES] > Agregate a ti, colaboradores o ayudates, aparecerá en el comando de lista de contactos.
 // [EN] > Adding yourself, collaborators or helpers will appear in the contact list command.
 global.official = [ // Agregate si eres Owner
-["201550680822", 'shawrma ', 1], 
-["201550680822", 'shawrma', 1],  
-["201550680822", 'shawrma', 1]]
+["967775302218", 'shawrma ', 1], 
+["967775302218", 'shawrma', 1],  
+["967775302218", 'shawrma', 1]]
 
 global.mail = '' // Add email
 global.desc = '' // Add short description (20 caractres max)
